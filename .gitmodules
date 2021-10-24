@@ -1,0 +1,24 @@
+[submodule "qemu"]
+	path = qemu
+	url = git@github.com:TwinVisor/qemu.git
+[submodule "build"]
+	path = build
+	url = git@github.com:TwinVisor/build.git
+[submodule "guest-linux"]
+	path = guest-linux
+	url = git@github.com:TwinVisor/guest-linux.git
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/tianocore/edk2.git
+[submodule "edk2-platforms"]
+	path = edk2-platforms
+	url = https://github.com/tianocore/edk2-platforms.git
+[submodule "mbedtls"]
+	path = mbedtls
+	url = https://github.com/ARMmbed/mbedtls.git
+[submodule "buildroot"]
+	path = buildroot
+	url = https://github.com/buildroot/buildroot.git
+[submodule "grub"]
+	path = grub
+	url = https://git.savannah.gnu.org/git/grub.git

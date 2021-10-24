@@ -1,0 +1,8 @@
+out/
+out-br/
+toolchains/
+*.diff
+*.dump
+*.patch
+*bake/
+*.[0-9]
