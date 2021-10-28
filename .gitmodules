@@ -1,9 +1,6 @@
 [submodule "qemu"]
 	path = qemu
 	url = git@github.com:TwinVisor/qemu.git
-[submodule "build"]
-	path = build
-	url = git@github.com:TwinVisor/build.git
 [submodule "guest-linux"]
 	path = guest-linux
 	url = git@github.com:TwinVisor/guest-linux.git
@@ -22,3 +19,15 @@
 [submodule "grub"]
 	path = grub
 	url = https://git.savannah.gnu.org/git/grub.git
+[submodule "titanium"]
+	path = titanium
+	url = git@github.com:TwinVisor/titanium.git
+[submodule "trusted-firmware-a"]
+	path = trusted-firmware-a
+	url = git@github.com:TwinVisor/trusted-firmware-a.git
+[submodule "linux"]
+	path = linux
+	url = git@github.com:TwinVisor/linux.git
+[submodule "build"]
+	path = build
+	url = git@github.com:TwinVisor/build.git
