@@ -1,8 +1,18 @@
-# TwinVisor Prototype
+# TwinVisor Functional Prototype
 
-This repo contains a prototype of [TwinVisor](https://dl.acm.org/doi/abs/10.1145/3477132.3483554) based on [OP-TEE project](https://github.com/OP-TEE/manifest/blob/master/fvp.xml).
+## Introduction
 
-Tested on Ubuntu 20.04 & Ubuntu 18.04 (x86-64 desktop).
+This is a functional prototype of the SOSP'21 paper **TwinVisor: Hardware-isolated Confidential Virtual Machines for ARM** based on ARM Fixed Virtual Platform (FVP). You can find our paper [here](https://dl.acm.org/doi/abs/10.1145/3477132.3483554).
+
+Due to the confidentiality agreement, we cannot release the proprietary code of the performance testing prototype on Hisilicon Kirin 990 hardware. 
+
+The copyright of TwinVisor and its prototype belongs to Institute of Parallel and Distributed Systems (IPADS) from Shanghai Jiao Tong University (SJTU).
+
+The code is based on [OP-TEE project](https://github.com/OP-TEE/manifest/blob/master/fvp.xml) and tested on Ubuntu 20.04 & Ubuntu 18.04 (x86-64).
+
+If you encounter any questions, please contact us via e-mail:
+
+> Dingji Li: dj_lee@sjtu.edu.cn, Zeyu Mi: yzmizeyu@sjtu.edu.cn
 
 ## Prerequesites
 
@@ -164,7 +174,7 @@ make all -j$(nproc)
 ls arch/arm64/boot/Image
 
 # Copy the kernel image to ``$TV_ROOT/out/Image``,
-# then re-compile the S-visor under ``$TV_ROOT/build/`` with ``make titanium``
+# then re-compile the S-visor under ``$TV_ROOT/build/`` with ``make s-visor``
 cp arch/arm64/boot/Image $TV_ROOT/out/
 # Also copy the kernel image into the disk image ``$TV_ROOT/out/boot.img``
 ```

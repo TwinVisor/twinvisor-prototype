@@ -19,9 +19,6 @@
 [submodule "grub"]
 	path = grub
 	url = https://git.savannah.gnu.org/git/grub.git
-[submodule "titanium"]
-	path = titanium
-	url = git@github.com:TwinVisor/titanium.git
 [submodule "trusted-firmware-a"]
 	path = trusted-firmware-a
 	url = git@github.com:TwinVisor/trusted-firmware-a.git
@@ -31,3 +28,6 @@
 [submodule "build"]
 	path = build
 	url = git@github.com:TwinVisor/build.git
+[submodule "s-visor"]
+	path = s-visor
+	url = git@github.com:TwinVisor/s-visor.git
